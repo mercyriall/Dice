@@ -1,0 +1,12 @@
+/Library
+/Logs
+/obj
+/Packages
+/ProjectSettings
+/Temp
+/UserSettings
+.vsconfig
+Assembly-CSharp.csproj
+Dice.sln
+.vs
+.git

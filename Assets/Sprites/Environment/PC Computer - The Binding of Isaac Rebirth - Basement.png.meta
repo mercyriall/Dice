@@ -1,0 +1,1905 @@
+fileFormatVersion: 2
+guid: f7e2b8b94d1643247a269d3dbe64afa5
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Basement_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 351
+        width: 117
+        height: 117
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -64}
+        - {x: 64, y: 0}
+        - {x: 0, y: 64}
+        - {x: -64, y: 0}
+      physicsShape:
+      - - {x: 0, y: -64}
+        - {x: 64, y: 0}
+        - {x: 0, y: 64}
+        - {x: -64, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f4cedd35c3cf5d439e225c3c5e43f09
+      internalID: -198077830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Basement_52
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 0
+        width: 117
+        height: 117
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -64}
+        - {x: 64, y: 0}
+        - {x: 0, y: 64}
+        - {x: -64, y: 0}
+      physicsShape:
+      - - {x: 0, y: -64}
+        - {x: 64, y: 0}
+        - {x: 0, y: 64}
+        - {x: -64, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56c06f9f4196d7c4f80a75298f86ab76
+      internalID: 72587742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Basement_53
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 0
+        width: 117
+        height: 117
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -64}
+        - {x: 64, y: 0}
+        - {x: 0, y: 64}
+        - {x: -64, y: 0}
+      physicsShape:
+      - - {x: 0, y: -64}
+        - {x: 64, y: 0}
+        - {x: 0, y: 64}
+        - {x: -64, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2de99c8d0a2b8d24fba9bfddc0750b9c
+      internalID: -1669831787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Basement_1
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 351
+        width: 117
+        height: 117
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -64}
+        - {x: 64, y: 0}
+        - {x: 0, y: 64}
+        - {x: -64, y: 0}
+      physicsShape:
+      - - {x: 0, y: -64}
+        - {x: 64, y: 0}
+        - {x: 0, y: 64}
+        - {x: -64, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37d384958ae3a0c408b70896a3135eff
+      internalID: -1681857811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Basement_2
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 351
+        width: 117
+        height: 117
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -64}
+        - {x: 64, y: 0}
+        - {x: 0, y: 64}
+        - {x: -64, y: 0}
+      physicsShape:
+      - - {x: 0, y: -64}
+        - {x: 64, y: 0}
+        - {x: 0, y: 64}
+        - {x: -64, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fb7ce7e2a3fe4d4395ff00f0c98d650
+      internalID: -1514840147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Basement_3
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 351
+        width: 117
+        height: 117
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -64}
+        - {x: 64, y: 0}
+        - {x: 0, y: 64}
+        - {x: -64, y: 0}
+      physicsShape:
+      - - {x: 0, y: -64}
+        - {x: 64, y: 0}
+        - {x: 0, y: 64}
+        - {x: -64, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85d0b80aec8bacc4bbba591c0a7bcf9e
+      internalID: -1021487021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Basement_4
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 394
+        width: 48
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -64}
+        - {x: 64, y: 0}
+        - {x: 0, y: 64}
+        - {x: -64, y: 0}
+      physicsShape:
+      - - {x: 0, y: -64}
+        - {x: 64, y: 0}
+        - {x: 0, y: 64}
+        - {x: -64, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 281172dfb271582489621e0c3486e4ba
+      internalID: -832238374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Basement_5
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 391
+        width: 54
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -64}
+        - {x: 64, y: 0}
+        - {x: 0, y: 64}
+        - {x: -64, y: 0}
+      physicsShape:
+      - - {x: 0, y: -64}
+        - {x: 64, y: 0}
+        - {x: 0, y: 64}
+        - {x: -64, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55dbd19967940c144b97818f0952256d
+      internalID: 331119794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Basement_6
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 351
+        width: 117
+        height: 117
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -64}
+        - {x: 64, y: 0}
+        - {x: 0, y: 64}
+        - {x: -64, y: 0}
+      physicsShape:
+      - - {x: 0, y: -64}
+        - {x: 64, y: 0}
+        - {x: 0, y: 64}
+        - {x: -64, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6aef5c47c939e5f4780c41012dad3a5b
+      internalID: 518565850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Basement_7
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 351
+        width: 117
+        height: 117
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -64}
+        - {x: 64, y: 0}
+        - {x: 0, y: 64}
+        - {x: -64, y: 0}
+      physicsShape:
+      - - {x: 0, y: -64}
+        - {x: 64, y: 0}
+        - {x: 0, y: 64}
+        - {x: -64, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fe0a4a9cab1aa84bac6cdc86bd9ae8b
+      internalID: 212346608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Basement_8
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 351
+        width: 117
+        height: 117
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -64}
+        - {x: 64, y: 0}
+        - {x: 0, y: 64}
+        - {x: -64, y: 0}
+      physicsShape:
+      - - {x: 0, y: -64}
+        - {x: 64, y: 0}
+        - {x: 0, y: 64}
+        - {x: -64, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47560e87209e85e409629639458cd3d2
+      internalID: 1947156727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Basement_9
+      rect:
+        serializedVersion: 2
+        x: 1053
+        y: 351
+        width: 117
+        height: 117
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -64}
+        - {x: 64, y: 0}
+        - {x: 0, y: 64}
+        - {x: -64, y: 0}
+      physicsShape:
+      - - {x: 0, y: -64}
+        - {x: 64, y: 0}
+        - {x: 0, y: 64}
+        - {x: -64, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bdd49f8889cc7e47ba1ac4789239f91
+      internalID: -893686449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Basement_10
+      rect:
+        serializedVersion: 2
+        x: 1170
+        y: 351
+        width: 117
+        height: 117
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -64}
+        - {x: 64, y: 0}
+        - {x: 0, y: 64}
+        - {x: -64, y: 0}
+      physicsShape:
+      - - {x: 0, y: -64}
+        - {x: 64, y: 0}
+        - {x: 0, y: 64}
+        - {x: -64, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3258191aa09da794085ed12dd02467a0
+      internalID: -565429548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Basement_11
+      rect:
+        serializedVersion: 2
+        x: 1287
+        y: 351
+        width: 117
+        height: 117
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -64}
+        - {x: 64, y: 0}
+        - {x: 0, y: 64}
+        - {x: -64, y: 0}
+      physicsShape:
+      - - {x: 0, y: -64}
+        - {x: 64, y: 0}
+        - {x: 0, y: 64}
+        - {x: -64, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28d6009884cd9f44ca8999a425c72ffb
+      internalID: 574945872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Basement_12
+      rect:
+        serializedVersion: 2
+        x: 1404
+        y: 351
+        width: 117
+        height: 117
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -64}
+        - {x: 64, y: 0}
+        - {x: 0, y: 64}
+        - {x: -64, y: 0}
+      physicsShape:
+      - - {x: 0, y: -64}
+        - {x: 64, y: 0}
+        - {x: 0, y: 64}
+        - {x: -64, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 103c49e1f5585cc4697d55d08e6e19b6
+      internalID: 1385719975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Basement_13
+      rect:
+        serializedVersion: 2
+        x: 1521
+        y: 351
+        width: 117
+        height: 117
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -64}
+        - {x: 64, y: 0}
+        - {x: 0, y: 64}
+        - {x: -64, y: 0}
+      physicsShape:
+      - - {x: 0, y: -64}
+        - {x: 64, y: 0}
+        - {x: 0, y: 64}
+        - {x: -64, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: b134b4f33c9c9e245a09be6438433a7a
+      internalID: 617663164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Basement_14
+      rect:
+        serializedVersion: 2
+        x: 1638
+        y: 351
+        width: 117
+        height: 117
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -64}
+        - {x: 64, y: 0}
+        - {x: 0, y: 64}
+        - {x: -64, y: 0}
+      physicsShape:
+      - - {x: 0, y: -64}
+        - {x: 64, y: 0}
+        - {x: 0, y: 64}
+        - {x: -64, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 050f46cbc2b50094aba872d2b0241e8e
+      internalID: -983384406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Basement_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 234
+        width: 117
+        height: 117
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -64}
+        - {x: 64, y: 0}
+        - {x: 0, y: 64}
+        - {x: -64, y: 0}
+      physicsShape:
+      - - {x: 0, y: -64}
+        - {x: 64, y: 0}
+        - {x: 0, y: 64}
+        - {x: -64, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4afc04c5e99d54d448bef63d5cb99c6a
+      internalID: -867760383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Basement_16
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 234
+        width: 117
+        height: 117
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -64}
+        - {x: 64, y: 0}
+        - {x: 0, y: 64}
+        - {x: -64, y: 0}
+      physicsShape:
+      - - {x: 0, y: -64}
+        - {x: 64, y: 0}
+        - {x: 0, y: 64}
+        - {x: -64, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bf5fa19e36086d4aa414b324388409b
+      internalID: -1470750649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Basement_17
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 234
+        width: 117
+        height: 117
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -64}
+        - {x: 64, y: 0}
+        - {x: 0, y: 64}
+        - {x: -64, y: 0}
+      physicsShape:
+      - - {x: 0, y: -64}
+        - {x: 64, y: 0}
+        - {x: 0, y: 64}
+        - {x: -64, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8c91792a196a124f87a49e876b0bdba
+      internalID: 1868876908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Basement_18
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 234
+        width: 117
+        height: 117
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -64}
+        - {x: 64, y: 0}
+        - {x: 0, y: 64}
+        - {x: -64, y: 0}
+      physicsShape:
+      - - {x: 0, y: -64}
+        - {x: 64, y: 0}
+        - {x: 0, y: 64}
+        - {x: -64, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f8815886a292c0478d6f74cc5c564d4
+      internalID: -1972932324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Basement_19
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 234
+        width: 117
+        height: 117
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -64}
+        - {x: 64, y: 0}
+        - {x: 0, y: 64}
+        - {x: -64, y: 0}
+      physicsShape:
+      - - {x: 0, y: -64}
+        - {x: 64, y: 0}
+        - {x: 0, y: 64}
+        - {x: -64, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb02e34aeb066cb4e9642e758a8a4bab
+      internalID: 1160301865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Basement_20
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 234
+        width: 117
+        height: 117
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -64}
+        - {x: 64, y: 0}
+        - {x: 0, y: 64}
+        - {x: -64, y: 0}
+      physicsShape:
+      - - {x: 0, y: -64}
+        - {x: 64, y: 0}
+        - {x: 0, y: 64}
+        - {x: -64, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 438627ef6455ea549a8b8f416fa5e05b
+      internalID: -1656370387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Basement_21
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 234
+        width: 117
+        height: 117
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -64}
+        - {x: 64, y: 0}
+        - {x: 0, y: 64}
+        - {x: -64, y: 0}
+      physicsShape:
+      - - {x: 0, y: -64}
+        - {x: 64, y: 0}
+        - {x: 0, y: 64}
+        - {x: -64, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86a1407a41e27764889b4eda13b1e3c3
+      internalID: 2091922105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Basement_22
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 234
+        width: 117
+        height: 117
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -64}
+        - {x: 64, y: 0}
+        - {x: 0, y: 64}
+        - {x: -64, y: 0}
+      physicsShape:
+      - - {x: 0, y: -64}
+        - {x: 64, y: 0}
+        - {x: 0, y: 64}
+        - {x: -64, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: a46097f070f2fa648be09bbe0de8fb47
+      internalID: 997648271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Basement_23
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 234
+        width: 117
+        height: 117
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -64}
+        - {x: 64, y: 0}
+        - {x: 0, y: 64}
+        - {x: -64, y: 0}
+      physicsShape:
+      - - {x: 0, y: -64}
+        - {x: 64, y: 0}
+        - {x: 0, y: 64}
+        - {x: -64, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f129a78246ec1543a3cc7a53854cefe
+      internalID: -1283424066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Basement_24
+      rect:
+        serializedVersion: 2
+        x: 1053
+        y: 234
+        width: 117
+        height: 117
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -64}
+        - {x: 64, y: 0}
+        - {x: 0, y: 64}
+        - {x: -64, y: 0}
+      physicsShape:
+      - - {x: 0, y: -64}
+        - {x: 64, y: 0}
+        - {x: 0, y: 64}
+        - {x: -64, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46a037e53b9e5954f9f544170c347033
+      internalID: 1588945639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Basement_25
+      rect:
+        serializedVersion: 2
+        x: 1170
+        y: 234
+        width: 117
+        height: 117
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -64}
+        - {x: 64, y: 0}
+        - {x: 0, y: 64}
+        - {x: -64, y: 0}
+      physicsShape:
+      - - {x: 0, y: -64}
+        - {x: 64, y: 0}
+        - {x: 0, y: 64}
+        - {x: -64, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c2201fa09f21754c83d14a410c28b88
+      internalID: 1007918849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Basement_26
+      rect:
+        serializedVersion: 2
+        x: 1287
+        y: 234
+        width: 117
+        height: 117
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -64}
+        - {x: 64, y: 0}
+        - {x: 0, y: 64}
+        - {x: -64, y: 0}
+      physicsShape:
+      - - {x: 0, y: -64}
+        - {x: 64, y: 0}
+        - {x: 0, y: 64}
+        - {x: -64, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9a04492f19c8e844a7aa71510a57285
+      internalID: 1512798351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Basement_27
+      rect:
+        serializedVersion: 2
+        x: 1404
+        y: 234
+        width: 117
+        height: 117
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -64}
+        - {x: 64, y: 0}
+        - {x: 0, y: 64}
+        - {x: -64, y: 0}
+      physicsShape:
+      - - {x: 0, y: -64}
+        - {x: 64, y: 0}
+        - {x: 0, y: 64}
+        - {x: -64, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d49ed56d1c7b364e899dd2d51897da1
+      internalID: -1772372893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Basement_28
+      rect:
+        serializedVersion: 2
+        x: 1521
+        y: 234
+        width: 117
+        height: 117
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -64}
+        - {x: 64, y: 0}
+        - {x: 0, y: 64}
+        - {x: -64, y: 0}
+      physicsShape:
+      - - {x: 0, y: -64}
+        - {x: 64, y: 0}
+        - {x: 0, y: 64}
+        - {x: -64, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2db69482b5c716142bbd8e869f42e4a4
+      internalID: 442154118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Basement_29
+      rect:
+        serializedVersion: 2
+        x: 1638
+        y: 234
+        width: 117
+        height: 117
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -64}
+        - {x: 64, y: 0}
+        - {x: 0, y: 64}
+        - {x: -64, y: 0}
+      physicsShape:
+      - - {x: 0, y: -64}
+        - {x: 64, y: 0}
+        - {x: 0, y: 64}
+        - {x: -64, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: b584632f4ffe3894e972a61602d90672
+      internalID: 103150265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Basement_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 117
+        width: 117
+        height: 117
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -64}
+        - {x: 64, y: 0}
+        - {x: 0, y: 64}
+        - {x: -64, y: 0}
+      physicsShape:
+      - - {x: 0, y: -64}
+        - {x: 64, y: 0}
+        - {x: 0, y: 64}
+        - {x: -64, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5930f14c6dde1b2499056597e2120a21
+      internalID: -1027837404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Basement_31
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 117
+        width: 117
+        height: 117
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -64}
+        - {x: 64, y: 0}
+        - {x: 0, y: 64}
+        - {x: -64, y: 0}
+      physicsShape:
+      - - {x: 0, y: -64}
+        - {x: 64, y: 0}
+        - {x: 0, y: 64}
+        - {x: -64, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66ae76ab266049e4ba02c0bbdd8e2428
+      internalID: -399474046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Basement_32
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 117
+        width: 117
+        height: 117
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -64}
+        - {x: 64, y: 0}
+        - {x: 0, y: 64}
+        - {x: -64, y: 0}
+      physicsShape:
+      - - {x: 0, y: -64}
+        - {x: 64, y: 0}
+        - {x: 0, y: 64}
+        - {x: -64, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 859a8bc83ee2bbc469594caabd4c51e3
+      internalID: 1629250699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Basement_33
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 117
+        width: 117
+        height: 117
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -64}
+        - {x: 64, y: 0}
+        - {x: 0, y: 64}
+        - {x: -64, y: 0}
+      physicsShape:
+      - - {x: 0, y: -64}
+        - {x: 64, y: 0}
+        - {x: 0, y: 64}
+        - {x: -64, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 580035de1ed976b48b7219b31e7dc448
+      internalID: -1935328683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Basement_34
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 117
+        width: 117
+        height: 117
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -64}
+        - {x: 64, y: 0}
+        - {x: 0, y: 64}
+        - {x: -64, y: 0}
+      physicsShape:
+      - - {x: 0, y: -64}
+        - {x: 64, y: 0}
+        - {x: 0, y: 64}
+        - {x: -64, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: e456090708878d44291ed008abb83423
+      internalID: 27484722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Basement_35
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 117
+        width: 117
+        height: 117
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -64}
+        - {x: 64, y: 0}
+        - {x: 0, y: 64}
+        - {x: -64, y: 0}
+      physicsShape:
+      - - {x: 0, y: -64}
+        - {x: 64, y: 0}
+        - {x: 0, y: 64}
+        - {x: -64, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bfa2ebd9181e1242908168269a5c35b
+      internalID: -875191039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Basement_36
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 117
+        width: 117
+        height: 117
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -64}
+        - {x: 64, y: 0}
+        - {x: 0, y: 64}
+        - {x: -64, y: 0}
+      physicsShape:
+      - - {x: 0, y: -64}
+        - {x: 64, y: 0}
+        - {x: 0, y: 64}
+        - {x: -64, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: a97f437761e2ec245b811dd33b2d479d
+      internalID: 930062142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Basement_37
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 117
+        width: 117
+        height: 117
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -64}
+        - {x: 64, y: 0}
+        - {x: 0, y: 64}
+        - {x: -64, y: 0}
+      physicsShape:
+      - - {x: 0, y: -64}
+        - {x: 64, y: 0}
+        - {x: 0, y: 64}
+        - {x: -64, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48a1c8a13951f6f4f8349bc8ec9427fc
+      internalID: -1091621582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Basement_38
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 117
+        width: 117
+        height: 117
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -64}
+        - {x: 64, y: 0}
+        - {x: 0, y: 64}
+        - {x: -64, y: 0}
+      physicsShape:
+      - - {x: 0, y: -64}
+        - {x: 64, y: 0}
+        - {x: 0, y: 64}
+        - {x: -64, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 986d8b21a1a7ae642ae273200e86dfd3
+      internalID: 1908421251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Basement_39
+      rect:
+        serializedVersion: 2
+        x: 1053
+        y: 117
+        width: 117
+        height: 117
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -64}
+        - {x: 64, y: 0}
+        - {x: 0, y: 64}
+        - {x: -64, y: 0}
+      physicsShape:
+      - - {x: 0, y: -64}
+        - {x: 64, y: 0}
+        - {x: 0, y: 64}
+        - {x: -64, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4aacd002845a5334eae8c21083436815
+      internalID: 465741862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Basement_40
+      rect:
+        serializedVersion: 2
+        x: 1170
+        y: 117
+        width: 117
+        height: 117
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -64}
+        - {x: 64, y: 0}
+        - {x: 0, y: 64}
+        - {x: -64, y: 0}
+      physicsShape:
+      - - {x: 0, y: -64}
+        - {x: 64, y: 0}
+        - {x: 0, y: 64}
+        - {x: -64, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc85965ecfc91704a86b1730e3bcd660
+      internalID: 297054531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Basement_41
+      rect:
+        serializedVersion: 2
+        x: 1287
+        y: 117
+        width: 117
+        height: 117
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -64}
+        - {x: 64, y: 0}
+        - {x: 0, y: 64}
+        - {x: -64, y: 0}
+      physicsShape:
+      - - {x: 0, y: -64}
+        - {x: 64, y: 0}
+        - {x: 0, y: 64}
+        - {x: -64, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c73f1e96f52c914e9c65b4b9ccc1be2
+      internalID: -413207473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Basement_42
+      rect:
+        serializedVersion: 2
+        x: 1404
+        y: 117
+        width: 117
+        height: 117
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -64}
+        - {x: 64, y: 0}
+        - {x: 0, y: 64}
+        - {x: -64, y: 0}
+      physicsShape:
+      - - {x: 0, y: -64}
+        - {x: 64, y: 0}
+        - {x: 0, y: 64}
+        - {x: -64, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f9d9aae0240f6b498d5fb1c923d6a48
+      internalID: 1122170672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Basement_43
+      rect:
+        serializedVersion: 2
+        x: 1521
+        y: 117
+        width: 117
+        height: 117
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -64}
+        - {x: 64, y: 0}
+        - {x: 0, y: 64}
+        - {x: -64, y: 0}
+      physicsShape:
+      - - {x: 0, y: -64}
+        - {x: 64, y: 0}
+        - {x: 0, y: 64}
+        - {x: -64, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: a76d6a859dd731a40b0287b8fc47d090
+      internalID: 456849326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Basement_44
+      rect:
+        serializedVersion: 2
+        x: 1638
+        y: 117
+        width: 117
+        height: 117
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -64}
+        - {x: 64, y: 0}
+        - {x: 0, y: 64}
+        - {x: -64, y: 0}
+      physicsShape:
+      - - {x: 0, y: -64}
+        - {x: 64, y: 0}
+        - {x: 0, y: 64}
+        - {x: -64, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ea0be2d312cd2b49a86c236fb04cc6e
+      internalID: 1735980929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Basement_45
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 117
+        height: 117
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -64}
+        - {x: 64, y: 0}
+        - {x: 0, y: 64}
+        - {x: -64, y: 0}
+      physicsShape:
+      - - {x: 0, y: -64}
+        - {x: 64, y: 0}
+        - {x: 0, y: 64}
+        - {x: -64, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6fc63dc57fa1ec47b7697a135f72e84
+      internalID: -502098103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Basement_46
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 0
+        width: 117
+        height: 117
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -64}
+        - {x: 64, y: 0}
+        - {x: 0, y: 64}
+        - {x: -64, y: 0}
+      physicsShape:
+      - - {x: 0, y: -64}
+        - {x: 64, y: 0}
+        - {x: 0, y: 64}
+        - {x: -64, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: a40e5b6d9c7a993499892ba93852846f
+      internalID: -1302633751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Basement_47
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 0
+        width: 117
+        height: 117
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -64}
+        - {x: 64, y: 0}
+        - {x: 0, y: 64}
+        - {x: -64, y: 0}
+      physicsShape:
+      - - {x: 0, y: -64}
+        - {x: 64, y: 0}
+        - {x: 0, y: 64}
+        - {x: -64, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52268619c4c3dcc439028e3ba31778f6
+      internalID: -1848355720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Basement_48
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 0
+        width: 117
+        height: 117
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -64}
+        - {x: 64, y: 0}
+        - {x: 0, y: 64}
+        - {x: -64, y: 0}
+      physicsShape:
+      - - {x: 0, y: -64}
+        - {x: 64, y: 0}
+        - {x: 0, y: 64}
+        - {x: -64, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: b74a016ff78fb14428d261e74c64c70a
+      internalID: -1416371231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Basement_49
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 0
+        width: 117
+        height: 117
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -64}
+        - {x: 64, y: 0}
+        - {x: 0, y: 64}
+        - {x: -64, y: 0}
+      physicsShape:
+      - - {x: 0, y: -64}
+        - {x: 64, y: 0}
+        - {x: 0, y: 64}
+        - {x: -64, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: e934f64ec8e9ee74b8904db2c9033caf
+      internalID: 307180076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Basement_50
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 0
+        width: 117
+        height: 117
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -64}
+        - {x: 64, y: 0}
+        - {x: 0, y: 64}
+        - {x: -64, y: 0}
+      physicsShape:
+      - - {x: 0, y: -64}
+        - {x: 64, y: 0}
+        - {x: 0, y: 64}
+        - {x: -64, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 508503e6dea22e447b4c787f73271ac9
+      internalID: 1908802477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Basement_51
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 0
+        width: 117
+        height: 117
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -64}
+        - {x: 64, y: 0}
+        - {x: 0, y: 64}
+        - {x: -64, y: 0}
+      physicsShape:
+      - - {x: 0, y: -64}
+        - {x: 64, y: 0}
+        - {x: 0, y: 64}
+        - {x: -64, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4571b9d1a1910624d98b209b998185c7
+      internalID: -1382425912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Basement_54
+      rect:
+        serializedVersion: 2
+        x: 1053
+        y: 0
+        width: 117
+        height: 117
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 112348b8d6364bf43b19d2993a210048
+      internalID: -2123167335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Basement_55
+      rect:
+        serializedVersion: 2
+        x: 1170
+        y: 0
+        width: 117
+        height: 117
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab02440c473d75b4fa57158a03becf13
+      internalID: 1562717982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Basement_56
+      rect:
+        serializedVersion: 2
+        x: 1287
+        y: 0
+        width: 117
+        height: 117
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 914fa77700a6cfd48a439fbe42dc728d
+      internalID: 1465193093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Basement_57
+      rect:
+        serializedVersion: 2
+        x: 1404
+        y: 0
+        width: 117
+        height: 117
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4df615cc57bfe64fbaa232aedf4a32b
+      internalID: -160875760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Basement_58
+      rect:
+        serializedVersion: 2
+        x: 1521
+        y: 0
+        width: 117
+        height: 117
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe0844ab3dbc3624d9c06a567a939fcb
+      internalID: 1849199908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Basement_59
+      rect:
+        serializedVersion: 2
+        x: 1638
+        y: 0
+        width: 117
+        height: 117
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2708fe01a686ff343afd3ee3a72cf868
+      internalID: 1720091909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      PC Computer - The Binding of Isaac Rebirth - Basement_0: -198077830
+      PC Computer - The Binding of Isaac Rebirth - Basement_1: -1681857811
+      PC Computer - The Binding of Isaac Rebirth - Basement_10: -565429548
+      PC Computer - The Binding of Isaac Rebirth - Basement_11: 574945872
+      PC Computer - The Binding of Isaac Rebirth - Basement_12: 1385719975
+      PC Computer - The Binding of Isaac Rebirth - Basement_13: 617663164
+      PC Computer - The Binding of Isaac Rebirth - Basement_14: -983384406
+      PC Computer - The Binding of Isaac Rebirth - Basement_15: -867760383
+      PC Computer - The Binding of Isaac Rebirth - Basement_16: -1470750649
+      PC Computer - The Binding of Isaac Rebirth - Basement_17: 1868876908
+      PC Computer - The Binding of Isaac Rebirth - Basement_18: -1972932324
+      PC Computer - The Binding of Isaac Rebirth - Basement_19: 1160301865
+      PC Computer - The Binding of Isaac Rebirth - Basement_2: -1514840147
+      PC Computer - The Binding of Isaac Rebirth - Basement_20: -1656370387
+      PC Computer - The Binding of Isaac Rebirth - Basement_21: 2091922105
+      PC Computer - The Binding of Isaac Rebirth - Basement_22: 997648271
+      PC Computer - The Binding of Isaac Rebirth - Basement_23: -1283424066
+      PC Computer - The Binding of Isaac Rebirth - Basement_24: 1588945639
+      PC Computer - The Binding of Isaac Rebirth - Basement_25: 1007918849
+      PC Computer - The Binding of Isaac Rebirth - Basement_26: 1512798351
+      PC Computer - The Binding of Isaac Rebirth - Basement_27: -1772372893
+      PC Computer - The Binding of Isaac Rebirth - Basement_28: 442154118
+      PC Computer - The Binding of Isaac Rebirth - Basement_29: 103150265
+      PC Computer - The Binding of Isaac Rebirth - Basement_3: -1021487021
+      PC Computer - The Binding of Isaac Rebirth - Basement_30: -1027837404
+      PC Computer - The Binding of Isaac Rebirth - Basement_31: -399474046
+      PC Computer - The Binding of Isaac Rebirth - Basement_32: 1629250699
+      PC Computer - The Binding of Isaac Rebirth - Basement_33: -1935328683
+      PC Computer - The Binding of Isaac Rebirth - Basement_34: 27484722
+      PC Computer - The Binding of Isaac Rebirth - Basement_35: -875191039
+      PC Computer - The Binding of Isaac Rebirth - Basement_36: 930062142
+      PC Computer - The Binding of Isaac Rebirth - Basement_37: -1091621582
+      PC Computer - The Binding of Isaac Rebirth - Basement_38: 1908421251
+      PC Computer - The Binding of Isaac Rebirth - Basement_39: 465741862
+      PC Computer - The Binding of Isaac Rebirth - Basement_4: -832238374
+      PC Computer - The Binding of Isaac Rebirth - Basement_40: 297054531
+      PC Computer - The Binding of Isaac Rebirth - Basement_41: -413207473
+      PC Computer - The Binding of Isaac Rebirth - Basement_42: 1122170672
+      PC Computer - The Binding of Isaac Rebirth - Basement_43: 456849326
+      PC Computer - The Binding of Isaac Rebirth - Basement_44: 1735980929
+      PC Computer - The Binding of Isaac Rebirth - Basement_45: -502098103
+      PC Computer - The Binding of Isaac Rebirth - Basement_46: -1302633751
+      PC Computer - The Binding of Isaac Rebirth - Basement_47: -1848355720
+      PC Computer - The Binding of Isaac Rebirth - Basement_48: -1416371231
+      PC Computer - The Binding of Isaac Rebirth - Basement_49: 307180076
+      PC Computer - The Binding of Isaac Rebirth - Basement_5: 331119794
+      PC Computer - The Binding of Isaac Rebirth - Basement_50: 1908802477
+      PC Computer - The Binding of Isaac Rebirth - Basement_51: -1382425912
+      PC Computer - The Binding of Isaac Rebirth - Basement_52: 72587742
+      PC Computer - The Binding of Isaac Rebirth - Basement_53: -1669831787
+      PC Computer - The Binding of Isaac Rebirth - Basement_54: -2123167335
+      PC Computer - The Binding of Isaac Rebirth - Basement_55: 1562717982
+      PC Computer - The Binding of Isaac Rebirth - Basement_56: 1465193093
+      PC Computer - The Binding of Isaac Rebirth - Basement_57: -160875760
+      PC Computer - The Binding of Isaac Rebirth - Basement_58: 1849199908
+      PC Computer - The Binding of Isaac Rebirth - Basement_59: 1720091909
+      PC Computer - The Binding of Isaac Rebirth - Basement_6: 518565850
+      PC Computer - The Binding of Isaac Rebirth - Basement_7: 212346608
+      PC Computer - The Binding of Isaac Rebirth - Basement_8: 1947156727
+      PC Computer - The Binding of Isaac Rebirth - Basement_9: -893686449
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
