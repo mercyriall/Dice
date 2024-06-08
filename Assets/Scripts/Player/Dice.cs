@@ -49,4 +49,20 @@ public class Dice : MonoBehaviour
             }
         }
     }
+
+    public void ShuffleCube()
+    {
+        if (_shuffle != true)
+        {
+            _time = 0.0f;
+
+            State.instance.CubeBuffDecline(); // важно ставить до сброса стороны кубика
+
+            _parameters.cubeSide = 0;
+            _shuffle = true;
+
+            _animator.SetBool("Shuffle", _shuffle);
+            _animator.SetInteger("CubeFace", _parameters.cubeSide);
+        }
+    }
 }

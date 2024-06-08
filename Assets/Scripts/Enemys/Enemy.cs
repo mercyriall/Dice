@@ -1,16 +1,23 @@
+using System.Collections;
 using UnityEngine;
 
 public class Enemy : MonoBehaviour
 {
-    [SerializeField] private int _health = 3;
+    public Enemy instance;
+
+    [SerializeField] protected int _health = 3;
     [SerializeField] private float _movementSpeed = 3;
     [SerializeField] private float _recharge = 1f;
     [SerializeField] private float _triggerRange = 200f;
 
-    private GameObject _player;
+    protected GameObject _player;
     private Rigidbody2D _rb;
 
     private float _time = 0f;
+    protected bool _charge = false;
+
+    protected bool _active = false;
+    public bool active { get { return _active; } set { _active = value; } }
 
     public int health { get { return _health; } set {  _health = value; } }
 
@@ -24,6 +31,10 @@ public class Enemy : MonoBehaviour
 
                 Parameters pp = collision.gameObject.GetComponentInParent<Parameters>();
                 pp.health -= 1;
+                Debug.Log(pp.health);
+                collision.gameObject.GetComponentInParent<Dice>().ShuffleCube();
+
+                StartCoroutine(collision.gameObject.GetComponentInParent<State>().GetDamage());
             }
         }
     }
@@ -49,37 +60,62 @@ public class Enemy : MonoBehaviour
                 transform.position = new Vector2(transform.position.x, transform.position.y + 0.2f);
             }
         }
+
+        else if (collision.gameObject.tag == "Player")
+        {
+            Parameters pp = collision.gameObject.GetComponentInParent<Parameters>();
+            pp.health -= 1;
+            Debug.Log(pp.health);
+            collision.gameObject.GetComponentInParent<Dice>().ShuffleCube();
+
+            StartCoroutine(collision.gameObject.GetComponentInParent<State>().GetDamage());
+        }
     }
 
-    private void Awake()
+    private void Start()
     {
         _rb = GetComponent<Rigidbody2D>();
+
+        if (instance == null)
+        {
+            instance = this;
+        }
     }
 
-    private void FixedUpdate()
+    virtual public void Move()
     {
-        _player = GameObject.FindGameObjectWithTag("Player");
-
-        Vector3 distaceVector = _player.transform.position - transform.position;
-
-        if (distaceVector.sqrMagnitude < _triggerRange)
         {
-            if (transform.position != _player.transform.position)
+            _player = GameObject.FindGameObjectWithTag("Player");
+
+            Vector3 distaceVector = _player.transform.position - transform.position;
+
+
+            if (distaceVector.sqrMagnitude < _triggerRange)
             {
-                _rb.MovePosition(transform.position + (distaceVector * _movementSpeed / 2 * Time.deltaTime));
+                _charge = true;
+
+                if (transform.position != _player.transform.position)
+                {
+                    _rb.MovePosition(transform.position + (distaceVector * _movementSpeed / 2 * Time.deltaTime));
+                }
+            }
+            else
+            {
+                _charge = false;
             }
         }
     }
 
-    private void Update()
+    public IEnumerator GetDamage()
     {
-        if (_health <= 0)
-        {
-            Die();
-        }
+        this.GetComponent<SpriteRenderer>().color = new Color(255f, 0f, 0f, 255f);
+
+        yield return new WaitForSeconds(0.2f);
+
+        this.GetComponent<SpriteRenderer>().color = new Color(255f, 255f, 255f, 255f);
     }
 
-    private void Die()
+    virtual public void Die()
     {
         Destroy(this.gameObject);
     }

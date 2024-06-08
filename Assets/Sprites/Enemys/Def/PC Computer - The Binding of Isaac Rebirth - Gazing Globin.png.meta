@@ -43,12 +43,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 25
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -134,7 +134,826 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Gazing Globin_0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 230
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b440b2b902785cb4cbbc19feb9a170d0
+      internalID: -1934266360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Gazing Globin_1
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 230
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8504815b295c67041b99efbea03a8689
+      internalID: -627531331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Gazing Globin_2
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 230
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9901534ead94860498a7411e50927ee3
+      internalID: 179954007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Gazing Globin_3
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 230
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e39ebf80217c8346a96e4fbcd178795
+      internalID: 1283438195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Gazing Globin_4
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 230
+        width: 17
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdcdc1f010cf97544a1e38f271efa7b0
+      internalID: 1570562590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Gazing Globin_5
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 230
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4d81cd3eea2e8f41a89c8ce7a625125
+      internalID: -1441112354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Gazing Globin_6
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 230
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9750829350d6eca45880ca95aefe250a
+      internalID: 36230923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Gazing Globin_7
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 230
+        width: 18
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3af2ad638f08cc419fd9fcb9465dbc9
+      internalID: -1032809426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Gazing Globin_8
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 218
+        width: 28
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc495f37a5490614e9a08aae7368dd02
+      internalID: -11674713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Gazing Globin_9
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 198
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 686ee066bffd5274b8472da2247947f0
+      internalID: 405548848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Gazing Globin_10
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 198
+        width: 18
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f58c2e1c9c1e644db7f88008689b6b3
+      internalID: 717095224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Gazing Globin_11
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 166
+        width: 18
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 308bf83ad4dda0340916c2315c10b74d
+      internalID: -2029596913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Gazing Globin_12
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 166
+        width: 18
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d13624793b8ce04384547fdac46a290
+      internalID: -1491850491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Gazing Globin_13
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 166
+        width: 18
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ace5369debd99547a2496869aa96967
+      internalID: -3915886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Gazing Globin_14
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 164
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1607813155d73d429e182e87a3e7e2b
+      internalID: -742838539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Gazing Globin_15
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 165
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac5cda485bac2eb408f192d79e3afcb6
+      internalID: -1429478298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Gazing Globin_16
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 166
+        width: 18
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70ef59bd9b7e07b41ad490b157796585
+      internalID: 453789546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Gazing Globin_17
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 166
+        width: 18
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d7de82275935144da7a10807cb60916
+      internalID: -1859267265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Gazing Globin_18
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 166
+        width: 18
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81ad9d6bd984e1740ba17a48dd7a337e
+      internalID: 185786944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Gazing Globin_19
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 132
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24afb874c79625c418823b7c90735a41
+      internalID: 1731446826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Gazing Globin_20
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 133
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70e62c7c274a76d4ebb48d245350f4fe
+      internalID: -1128185062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Gazing Globin_21
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 102
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87f2ae57b27082a4981a323df207c08e
+      internalID: 561251625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Gazing Globin_22
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 102
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb87b0a2c70294448a6da0d8c5879aad
+      internalID: -767028321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Gazing Globin_23
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 102
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbf61870c14e191459289abc5b9b3f89
+      internalID: -1695012556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Gazing Globin_24
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 102
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bca0f3665aec9284b9883117deccad1f
+      internalID: -1556284216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Gazing Globin_25
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 102
+        width: 17
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35d7dd8fa4a84594b854ae50824e9663
+      internalID: 1941443458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Gazing Globin_26
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 102
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 878f9b91dda73fd4c84520a3ee702804
+      internalID: 273750727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Gazing Globin_27
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 102
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02ca0375693895243ab3dc9612ffdf1d
+      internalID: 1689004504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Gazing Globin_28
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 102
+        width: 18
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66bab41147a99a747b43312cc4713372
+      internalID: -1352498131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Gazing Globin_29
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 70
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f553c926c0eaa904e828d9e8954325bd
+      internalID: -1710696992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Gazing Globin_30
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 70
+        width: 18
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df25ff190ef547e458abad4b63781e61
+      internalID: -395638058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Gazing Globin_31
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 36
+        width: 26
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8a9505e4a019dd4faded7466ad01888
+      internalID: -1664138517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Gazing Globin_32
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 36
+        width: 25
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ef8f5ad802953843a5d7680172947c5
+      internalID: 559875023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Gazing Globin_33
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 35
+        width: 28
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc0669b3f48e0ab488ba888e4d0f49ec
+      internalID: -153854553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Gazing Globin_34
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 35
+        width: 30
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 951da21bf5c9f2642ab4e4c99673f4fc
+      internalID: 326574105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Gazing Globin_35
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 0
+        width: 29
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a2a6aeba07bf94439fa470a267a94af
+      internalID: -1030719152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Gazing Globin_36
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 0
+        width: 30
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc0ed2de29f8d8b42941fa1631c9e014
+      internalID: -1641633648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Gazing Globin_37
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 0
+        width: 28
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c98b313e2e02bc0408f8834e541d83e2
+      internalID: -913037829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Gazing Globin_38
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 0
+        width: 28
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2271cf01bf109684bb1e1a657960c73f
+      internalID: -1381235863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -145,7 +964,46 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      PC Computer - The Binding of Isaac Rebirth - Gazing Globin_0: -1934266360
+      PC Computer - The Binding of Isaac Rebirth - Gazing Globin_1: -627531331
+      PC Computer - The Binding of Isaac Rebirth - Gazing Globin_10: 717095224
+      PC Computer - The Binding of Isaac Rebirth - Gazing Globin_11: -2029596913
+      PC Computer - The Binding of Isaac Rebirth - Gazing Globin_12: -1491850491
+      PC Computer - The Binding of Isaac Rebirth - Gazing Globin_13: -3915886
+      PC Computer - The Binding of Isaac Rebirth - Gazing Globin_14: -742838539
+      PC Computer - The Binding of Isaac Rebirth - Gazing Globin_15: -1429478298
+      PC Computer - The Binding of Isaac Rebirth - Gazing Globin_16: 453789546
+      PC Computer - The Binding of Isaac Rebirth - Gazing Globin_17: -1859267265
+      PC Computer - The Binding of Isaac Rebirth - Gazing Globin_18: 185786944
+      PC Computer - The Binding of Isaac Rebirth - Gazing Globin_19: 1731446826
+      PC Computer - The Binding of Isaac Rebirth - Gazing Globin_2: 179954007
+      PC Computer - The Binding of Isaac Rebirth - Gazing Globin_20: -1128185062
+      PC Computer - The Binding of Isaac Rebirth - Gazing Globin_21: 561251625
+      PC Computer - The Binding of Isaac Rebirth - Gazing Globin_22: -767028321
+      PC Computer - The Binding of Isaac Rebirth - Gazing Globin_23: -1695012556
+      PC Computer - The Binding of Isaac Rebirth - Gazing Globin_24: -1556284216
+      PC Computer - The Binding of Isaac Rebirth - Gazing Globin_25: 1941443458
+      PC Computer - The Binding of Isaac Rebirth - Gazing Globin_26: 273750727
+      PC Computer - The Binding of Isaac Rebirth - Gazing Globin_27: 1689004504
+      PC Computer - The Binding of Isaac Rebirth - Gazing Globin_28: -1352498131
+      PC Computer - The Binding of Isaac Rebirth - Gazing Globin_29: -1710696992
+      PC Computer - The Binding of Isaac Rebirth - Gazing Globin_3: 1283438195
+      PC Computer - The Binding of Isaac Rebirth - Gazing Globin_30: -395638058
+      PC Computer - The Binding of Isaac Rebirth - Gazing Globin_31: -1664138517
+      PC Computer - The Binding of Isaac Rebirth - Gazing Globin_32: 559875023
+      PC Computer - The Binding of Isaac Rebirth - Gazing Globin_33: -153854553
+      PC Computer - The Binding of Isaac Rebirth - Gazing Globin_34: 326574105
+      PC Computer - The Binding of Isaac Rebirth - Gazing Globin_35: -1030719152
+      PC Computer - The Binding of Isaac Rebirth - Gazing Globin_36: -1641633648
+      PC Computer - The Binding of Isaac Rebirth - Gazing Globin_37: -913037829
+      PC Computer - The Binding of Isaac Rebirth - Gazing Globin_38: -1381235863
+      PC Computer - The Binding of Isaac Rebirth - Gazing Globin_4: 1570562590
+      PC Computer - The Binding of Isaac Rebirth - Gazing Globin_5: -1441112354
+      PC Computer - The Binding of Isaac Rebirth - Gazing Globin_6: 36230923
+      PC Computer - The Binding of Isaac Rebirth - Gazing Globin_7: -1032809426
+      PC Computer - The Binding of Isaac Rebirth - Gazing Globin_8: -11674713
+      PC Computer - The Binding of Isaac Rebirth - Gazing Globin_9: 405548848
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

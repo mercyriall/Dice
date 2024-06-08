@@ -1,7 +1,11 @@
 using UnityEngine;
+using System.Collections;
 
 public class State : MonoBehaviour
 {
+    [SerializeField] private SpriteRenderer _head;
+    [SerializeField] private SpriteRenderer _body;
+
     public static State instance;
 
     private Parameters _parameters;
@@ -94,6 +98,17 @@ public class State : MonoBehaviour
             _parameters.attackSpeed += 0.2f;
             _parameters.projectileSpeed -= 3;
         }
+    }
+
+    public IEnumerator GetDamage()
+    {
+        _head.color = new Color(255f, 0f, 0f, 255f);
+        _body.color = new Color(255f, 0f, 0f, 255f);
+
+        yield return new WaitForSeconds(0.2f);
+
+        _head.color = new Color(255f, 255f, 255f, 255f);
+        _body.color = new Color(255f, 255f, 255f, 255f);
     }
 
     private void Dead()
