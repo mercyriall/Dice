@@ -46,12 +46,12 @@ public class GazingGlobing : Enemy
         Die();
     }
 
-    public override void Die()
+    protected override void Die()
     {
         base.Die();
     }
 
-    public override void Move()
+    protected override void Move()
     {
         if (_active)
         {

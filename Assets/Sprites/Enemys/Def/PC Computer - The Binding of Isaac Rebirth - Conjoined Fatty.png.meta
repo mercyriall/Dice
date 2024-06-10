@@ -43,12 +43,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 25
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -134,7 +134,595 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Conjoined Fatty_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 231
+        width: 46
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3865a29893fc53a44a31a1522ec67106
+      internalID: 919296856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Conjoined Fatty_1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 231
+        width: 46
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fff6feab162ccef48b48475cdad9ba14
+      internalID: 1418947463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Conjoined Fatty_2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 231
+        width: 46
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04b733cbe2fcf484ea442724f1a9bb9b
+      internalID: -1981252665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Conjoined Fatty_3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 231
+        width: 46
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8891debf108f0a84b955750465fc86a0
+      internalID: -1759835360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Conjoined Fatty_4
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 192
+        width: 34
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba5f3f6769677a746b274cf4ad37ee4f
+      internalID: 97278829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Conjoined Fatty_5
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 192
+        width: 34
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 755440d37a62f5243a94794b599cbf79
+      internalID: -1500218778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Conjoined Fatty_6
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 192
+        width: 36
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8708dfb0dcadaad448a6d1a98b627b08
+      internalID: -207278871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Conjoined Fatty_7
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 192
+        width: 41
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7afde790dbb0e5640bd8315fd16db4fc
+      internalID: -1400847045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Conjoined Fatty_8
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 192
+        width: 39
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31aeb710ae6bb6b44a26b112929ffb86
+      internalID: 912318864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Conjoined Fatty_9
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 192
+        width: 34
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27daf1800b7a37447adaa9030fd94026
+      internalID: -523722527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Conjoined Fatty_10
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 192
+        width: 34
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 682dfd9ef7e618347ad22353363061b8
+      internalID: -136273551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Conjoined Fatty_11
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 192
+        width: 34
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65c05023dde2b584d8523ebaf66faca2
+      internalID: 651247821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Conjoined Fatty_12
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 128
+        width: 36
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10f88b38e0d75aa4e8ea4872346287fc
+      internalID: 1877387862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Conjoined Fatty_13
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 128
+        width: 41
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d59664399b130f0418fe183c1770316e
+      internalID: 1829971452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Conjoined Fatty_14
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 128
+        width: 39
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ceb9c78714cbcdd4d8226538e4842756
+      internalID: 1545255114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Conjoined Fatty_15
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 128
+        width: 34
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93164ec159088634989b481b3c1c362b
+      internalID: -1074480346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Conjoined Fatty_16
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 64
+        width: 40
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c74b6c210d743d4fb752c503d388884
+      internalID: -1964415392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Conjoined Fatty_17
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 64
+        width: 40
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d44810a2d01dd0347b21cb5e4a2c73bd
+      internalID: 1862045027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Conjoined Fatty_18
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 64
+        width: 41
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d232dcee518391c4cabfe8555d5c7895
+      internalID: 1242932565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Conjoined Fatty_19
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 64
+        width: 45
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46908246359a7234393f6d1cba627331
+      internalID: 7230531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Conjoined Fatty_20
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 64
+        width: 43
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12a328f51c373e740ad2428b17f6852f
+      internalID: -1834069027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Conjoined Fatty_21
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 64
+        width: 40
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9846cbb8540739448af5e4162dc7ac08
+      internalID: 1822292778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Conjoined Fatty_22
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 64
+        width: 40
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51534b1b885a1684d9b9929662471881
+      internalID: -231239330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Conjoined Fatty_23
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 64
+        width: 40
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c49c772450f043842a2f8fb2c789e5d9
+      internalID: 1272953607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Conjoined Fatty_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 41
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2ccbc5dc06016a47af14bdcde60b1fc
+      internalID: -1042981808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Conjoined Fatty_25
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 0
+        width: 45
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 779aa70cef3715840837a4a3b4e7454a
+      internalID: -1658256394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Conjoined Fatty_26
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 0
+        width: 43
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5e7f4a438884ba4d967b52e6dea97ba
+      internalID: -990161094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Conjoined Fatty_27
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 0
+        width: 40
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 488041c892cef2b4c8f4079267c33a7b
+      internalID: 1466168199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -145,7 +733,35 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      PC Computer - The Binding of Isaac Rebirth - Conjoined Fatty_0: 919296856
+      PC Computer - The Binding of Isaac Rebirth - Conjoined Fatty_1: 1418947463
+      PC Computer - The Binding of Isaac Rebirth - Conjoined Fatty_10: -136273551
+      PC Computer - The Binding of Isaac Rebirth - Conjoined Fatty_11: 651247821
+      PC Computer - The Binding of Isaac Rebirth - Conjoined Fatty_12: 1877387862
+      PC Computer - The Binding of Isaac Rebirth - Conjoined Fatty_13: 1829971452
+      PC Computer - The Binding of Isaac Rebirth - Conjoined Fatty_14: 1545255114
+      PC Computer - The Binding of Isaac Rebirth - Conjoined Fatty_15: -1074480346
+      PC Computer - The Binding of Isaac Rebirth - Conjoined Fatty_16: -1964415392
+      PC Computer - The Binding of Isaac Rebirth - Conjoined Fatty_17: 1862045027
+      PC Computer - The Binding of Isaac Rebirth - Conjoined Fatty_18: 1242932565
+      PC Computer - The Binding of Isaac Rebirth - Conjoined Fatty_19: 7230531
+      PC Computer - The Binding of Isaac Rebirth - Conjoined Fatty_2: -1981252665
+      PC Computer - The Binding of Isaac Rebirth - Conjoined Fatty_20: -1834069027
+      PC Computer - The Binding of Isaac Rebirth - Conjoined Fatty_21: 1822292778
+      PC Computer - The Binding of Isaac Rebirth - Conjoined Fatty_22: -231239330
+      PC Computer - The Binding of Isaac Rebirth - Conjoined Fatty_23: 1272953607
+      PC Computer - The Binding of Isaac Rebirth - Conjoined Fatty_24: -1042981808
+      PC Computer - The Binding of Isaac Rebirth - Conjoined Fatty_25: -1658256394
+      PC Computer - The Binding of Isaac Rebirth - Conjoined Fatty_26: -990161094
+      PC Computer - The Binding of Isaac Rebirth - Conjoined Fatty_27: 1466168199
+      PC Computer - The Binding of Isaac Rebirth - Conjoined Fatty_3: -1759835360
+      PC Computer - The Binding of Isaac Rebirth - Conjoined Fatty_4: 97278829
+      PC Computer - The Binding of Isaac Rebirth - Conjoined Fatty_5: -1500218778
+      PC Computer - The Binding of Isaac Rebirth - Conjoined Fatty_6: -207278871
+      PC Computer - The Binding of Isaac Rebirth - Conjoined Fatty_7: -1400847045
+      PC Computer - The Binding of Isaac Rebirth - Conjoined Fatty_8: 912318864
+      PC Computer - The Binding of Isaac Rebirth - Conjoined Fatty_9: -523722527
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

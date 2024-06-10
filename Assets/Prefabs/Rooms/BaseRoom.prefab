@@ -11,9 +11,10 @@ GameObject:
   - component: {fileID: 7641248394240430543}
   - component: {fileID: 982220751797663934}
   - component: {fileID: 2028594505269611291}
+  - component: {fileID: 3441495670765915506}
   m_Layer: 0
   m_Name: PlayerTrigger
-  m_TagString: Untagged
+  m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -90,6 +91,33 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c42123adb079ced4f96eb354b5a8d417, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!50 &3441495670765915506
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1183170177426892873}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 0.0001
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &1434188944271937095
 GameObject:
   m_ObjectHideFlags: 0
@@ -99,6 +127,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5233724628569976726}
+  - component: {fileID: 9019568123854707433}
+  - component: {fileID: 2833464231064019726}
   m_Layer: 0
   m_Name: DoorExitL
   m_TagString: Untagged
@@ -115,12 +145,60 @@ Transform:
   m_GameObject: {fileID: 1434188944271937095}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -10.75, y: 0.43, z: 0}
+  m_LocalPosition: {x: -12, y: 0.43, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1419602008968514432}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!58 &9019568123854707433
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1434188944271937095}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 0.35
+--- !u!114 &2833464231064019726
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1434188944271937095}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 650ec624be13aba47b1d14119969c4be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  roomCreated: 0
 --- !u!1 &1492818046979983430
 GameObject:
   m_ObjectHideFlags: 0
@@ -278,7 +356,7 @@ Tilemap:
       serializedVersion: 2
       m_TileIndex: 6
       m_TileSpriteIndex: 6
-      m_TileMatrixIndex: 0
+      m_TileMatrixIndex: 5
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
       dummyAlignment: 0
@@ -315,7 +393,7 @@ Tilemap:
   - m_RefCount: 3
     m_Data: {fileID: 825308570, guid: 7341cd5289ac78a4799a446e84b4e731, type: 3}
   m_TileMatrixArray:
-  - m_RefCount: 8
+  - m_RefCount: 7
     m_Data:
       e00: 1
       e01: 0
@@ -371,12 +449,12 @@ Tilemap:
       e33: 1
   - m_RefCount: 1
     m_Data:
-      e00: 0.000000059604645
+      e00: 0.00000005960464
       e01: -0.99999994
       e02: 0
-      e03: 0
+      e03: -0.28996468
       e10: 0.99999994
-      e11: 0.000000059604645
+      e11: 0.00000005960464
       e12: 0
       e13: 0
       e20: 0
@@ -389,15 +467,33 @@ Tilemap:
       e33: 1
   - m_RefCount: 1
     m_Data:
-      e00: 0.000000059604645
+      e00: 0.00000005960464
       e01: 0.99999994
       e02: 0
-      e03: 0
+      e03: 0.23197174
       e10: -0.99999994
-      e11: 0.000000059604645
+      e11: 0.00000005960464
       e12: -0
       e13: 0
       e20: -0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+  - m_RefCount: 1
+    m_Data:
+      e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0.20297527
+      e20: 0
       e21: 0
       e22: 1
       e23: 0
@@ -2608,6 +2704,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad28c7e6649c44a4cbe6572377d0728a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _thisRoomPosition: {fileID: 1419602008968514432}
+  _rooms:
+  - {fileID: 9113309360734536632, guid: b083abe669f8d334d98500de19e9a806, type: 3}
+  - {fileID: 9113309360734536632, guid: 47b0fc2a078853a408fbed8f6e0bb57b, type: 3}
+  - {fileID: 9113309360734536632, guid: 90acf17b9d828f6478f668afd541cf6a, type: 3}
   _exit: {fileID: 5233724628569976726}
 --- !u!1 &1784427970152422715
 GameObject:
@@ -2920,6 +3021,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad28c7e6649c44a4cbe6572377d0728a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _thisRoomPosition: {fileID: 1419602008968514432}
+  _rooms:
+  - {fileID: 9113309360734536632, guid: b083abe669f8d334d98500de19e9a806, type: 3}
+  - {fileID: 9113309360734536632, guid: 47b0fc2a078853a408fbed8f6e0bb57b, type: 3}
+  - {fileID: 9113309360734536632, guid: 90acf17b9d828f6478f668afd541cf6a, type: 3}
   _exit: {fileID: 712148325516787970}
 --- !u!1 &5077492592380388322
 GameObject:
@@ -3064,6 +3170,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad28c7e6649c44a4cbe6572377d0728a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _thisRoomPosition: {fileID: 1419602008968514432}
+  _rooms:
+  - {fileID: 9113309360734536632, guid: b083abe669f8d334d98500de19e9a806, type: 3}
+  - {fileID: 9113309360734536632, guid: 47b0fc2a078853a408fbed8f6e0bb57b, type: 3}
+  - {fileID: 9113309360734536632, guid: 90acf17b9d828f6478f668afd541cf6a, type: 3}
   _exit: {fileID: 1429157044237691641}
 --- !u!1 &6621061925670859354
 GameObject:
@@ -3074,6 +3185,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 712148325516787970}
+  - component: {fileID: 3197874052384349598}
+  - component: {fileID: 4248110457247099428}
   m_Layer: 0
   m_Name: DoorExitR
   m_TagString: Untagged
@@ -3090,12 +3203,60 @@ Transform:
   m_GameObject: {fileID: 6621061925670859354}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 10.75, y: 0.43, z: 0}
+  m_LocalPosition: {x: 12, y: 0.43, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1419602008968514432}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!58 &3197874052384349598
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6621061925670859354}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 0.35
+--- !u!114 &4248110457247099428
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6621061925670859354}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 650ec624be13aba47b1d14119969c4be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  roomCreated: 0
 --- !u!1 &7399790720691358463
 GameObject:
   m_ObjectHideFlags: 0
@@ -3123,7 +3284,7 @@ Transform:
   m_GameObject: {fileID: 7399790720691358463}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0.18, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3181,11 +3342,11 @@ Tilemap:
       e00: 0.76
       e01: 0
       e02: 0
-      e03: 0
+      e03: -0.23350996
       e10: 0
       e11: 0.72
       e12: 0
-      e13: 0
+      e13: 0.18161869
       e20: 0
       e21: 0
       e22: 1
@@ -3196,14 +3357,14 @@ Tilemap:
       e33: 1
   - m_RefCount: 1
     m_Data:
-      e00: 0.000000039935113
+      e00: -0.0000003993511
       e01: -0.75999993
       e02: 0
-      e03: 0
+      e03: -0.49296474
       e10: 0.66999996
-      e11: 0.00000004529953
+      e11: -0.00000045299527
       e12: 0
-      e13: 0
+      e13: -0.10378218
       e20: 0
       e21: 0
       e22: 1
@@ -3214,15 +3375,15 @@ Tilemap:
       e33: 1
   - m_RefCount: 1
     m_Data:
-      e00: 0.00000004172325
+      e00: -0.00003187656
       e01: 0.72999996
       e02: 0
-      e03: 0
+      e03: 0.04135704
       e10: -0.6999999
-      e11: 0.000000043511392
-      e12: 0
+      e11: -0.0000332427
+      e12: -0
       e13: 0
-      e20: 0
+      e20: -0
       e21: 0
       e22: 1
       e23: 0
@@ -3315,6 +3476,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1429157044237691641}
+  - component: {fileID: 6739714465611623117}
+  - component: {fileID: 860669206282597246}
   m_Layer: 0
   m_Name: DoorExitU
   m_TagString: Untagged
@@ -3331,12 +3494,60 @@ Transform:
   m_GameObject: {fileID: 7627879128742387028}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.46, y: 6.6, z: 0}
+  m_LocalPosition: {x: 0.46, y: 8, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1419602008968514432}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!58 &6739714465611623117
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7627879128742387028}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 0.35
+--- !u!114 &860669206282597246
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7627879128742387028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 650ec624be13aba47b1d14119969c4be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  roomCreated: 0
 --- !u!1 &8027020300255883655
 GameObject:
   m_ObjectHideFlags: 0
@@ -3441,7 +3652,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.96, y: 0.97, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 219079022460833372}

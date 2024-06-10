@@ -6,22 +6,23 @@ public class Enemy : MonoBehaviour
     public Enemy instance;
 
     [SerializeField] protected int _health = 3;
-    [SerializeField] private float _movementSpeed = 3;
-    [SerializeField] private float _recharge = 1f;
-    [SerializeField] private float _triggerRange = 200f;
+    [SerializeField] protected float _movementSpeed = 3;
+    [SerializeField] protected float _recharge = 1f;
+    [SerializeField] protected float _triggerRange = 200f;
 
     protected GameObject _player;
     private Rigidbody2D _rb;
 
-    private float _time = 0f;
+    protected float _time = 0f;
     protected bool _charge = false;
-
     protected bool _active = false;
+
     public bool active { get { return _active; } set { _active = value; } }
+    public bool charge { get { return _charge; } set { _charge = value; } }
 
     public int health { get { return _health; } set {  _health = value; } }
 
-    private void OnTriggerStay2D(Collider2D collision)
+    protected virtual void OnTriggerStay2D(Collider2D collision)
     {
         if (collision.gameObject.tag == "Player")
         {
@@ -82,7 +83,7 @@ public class Enemy : MonoBehaviour
         }
     }
 
-    virtual public void Move()
+    protected virtual void Move()
     {
         {
             _player = GameObject.FindGameObjectWithTag("Player");
@@ -115,7 +116,7 @@ public class Enemy : MonoBehaviour
         this.GetComponent<SpriteRenderer>().color = new Color(255f, 255f, 255f, 255f);
     }
 
-    virtual public void Die()
+    protected virtual void Die()
     {
         Destroy(this.gameObject);
     }

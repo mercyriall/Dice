@@ -100,8 +100,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e6a3b5ccc7415740b6c427223670b66, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  instance: {fileID: 0}
   _health: 3
-  _movementSpeed: 3.5
+  _movementSpeed: 3
   _recharge: 1.5
   _triggerRange: 200
 --- !u!50 &8097324032145063276

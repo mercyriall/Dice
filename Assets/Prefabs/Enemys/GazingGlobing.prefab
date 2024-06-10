@@ -325,8 +325,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   instance: {fileID: 0}
-  _health: 3
-  _movementSpeed: 3
+  _health: 5
+  _movementSpeed: 5
   _recharge: 1
   _triggerRange: 200
   _head: {fileID: 314731387849904518}
