@@ -1,5 +1,6 @@
 using UnityEngine;
 using System.Collections;
+using UnityEngine.SceneManagement;
 
 public class State : MonoBehaviour
 {
@@ -113,6 +114,6 @@ public class State : MonoBehaviour
 
     private void Dead()
     {
-        Debug.Log("ISAAC IS DEAD");
+        SceneManager.LoadScene(2);
     }
 }
